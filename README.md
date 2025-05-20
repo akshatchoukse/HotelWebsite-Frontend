@@ -1,12 +1,80 @@
-# React + Vite
+# Hotel Information Website (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend part of a simple hotel information website built using React, Tailwind CSS, and Vite.  
+The website provides information about the hotel, rooms, amenities, and a contact section for inquiries.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Responsive design using Tailwind CSS  
+- Parallax effect on header images  
+- FAQ section with accordion style  
+- Contact form for user inquiries  
+- Simple navigation for easy access to sections  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+- React  
+- Vite (build tool)  
+- Tailwind CSS  
+---
+
+## Setup Instructions
+
+1. Clone this repository:  
+   ```bash
+   git clone <your-repo-url>
+   cd <your-project-folder>
+   ````
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Run development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and go to:
+
+   ```
+   http://localhost:5173
+
+   ```
+
+
+## Folder Structure
+
+```
+/src
+/components   # React components (e.g., FAQ, Header, ContactForm)
+/assets        # Images, fonts, etc.
+/index.css     # Tailwind CSS import and custom styles
+/App.jsx       # Main app component
+main.jsx       # React DOM rendering
+```
+
+## How to Customize
+
+* Update hotel details in the components inside `/src/components`
+* Modify styles using Tailwind utility classes
+* Add more FAQ items in the FAQ component
+
+
+## License
+
+This project is open source and available under the MIT License.
+
+
+
+## Contact
+
+For questions or support, contact:
+Akshat Choukse — [choukseakshat@gmail.com](mailto:choukseakshat@gmail.com)
