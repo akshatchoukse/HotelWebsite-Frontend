@@ -26,7 +26,7 @@ function Header() {
         show ? 'translate-y-0' : '-translate-y-full'
       }`}
     >
-      <div className="max-w-7xl mx-auto gap-15 flex items-center justify-between h-full px-6 sm:px-12 md:px-20 lg:px-32 text-[13px] font-serif text-gray-700">
+      <div className="max-w-7xl mx-auto gap-15 flex items-center justify-between h-full z-10 px-6 sm:px-12 md:px-20 lg:px-32 text-[13px] font-serif text-gray-700">
         <div className="cursor-pointer hover:text-gray-500 hidden sm:flex items-center gap-1">
           <BedDouble size={16} />
           ROOMS
